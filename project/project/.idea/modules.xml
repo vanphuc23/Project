@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/P2P.iml" filepath="$PROJECT_DIR$/.idea/modules/P2P.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/P2P.main.iml" filepath="$PROJECT_DIR$/.idea/modules/P2P.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/P2P.test.iml" filepath="$PROJECT_DIR$/.idea/modules/P2P.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PC/PC.iml" filepath="$PROJECT_DIR$/PC/PC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PS/PS.iml" filepath="$PROJECT_DIR$/PS/PS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PC1/.idea/project.iml" filepath="$PROJECT_DIR$/PC1/.idea/project.iml" />
+    </modules>
+  </component>
+</project>

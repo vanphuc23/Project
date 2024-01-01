@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4e40071f-a731-40fa-8ebf-97ab39b54295" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/PC/src/connect/ISocketClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/AuthorDetailHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/BrandHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/ColorHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/CustomerHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/ExportNoteDetailHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/ExportNoteHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/FuncDetailHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/GrAuthorHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/IAuthorDetailHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/IBrandHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/IColorHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/ICustomerHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/IExportNoteDetailHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/IExportNoteHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/IFuncDetailHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/IGrAuthorHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/IImportNoteDetailHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/IImportNoteHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/INoteDetailHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/IOriginHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/IOsHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/IPhoneDetailHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/IPhoneHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/IRamHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/IRomHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/ISupplierHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/IUserHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/IVersionPhoneHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/IWareHouseHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/ImportNoteDetailHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/ImportNoteHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/NoteDetailHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/OriginHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/OsHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/PhoneDetailHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/PhoneHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/RamHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/RomHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/SupplierHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/UserHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/VersionPhoneHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/handle/WareHouseHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/AuthorDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/ColorBr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/ExportNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/ExportNoteDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/FunctionDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/GrAuthor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/ImportNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/ImportNoteDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/ListSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/ListTranmission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/ListTransfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/Origin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/Os.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/PhoneDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/Ram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/Rom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/Supplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/VersionPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/src/model/WareHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/connect/Panel/Blocked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/connect/Panel/ThongKe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/connect/Panel/TrangChu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/connect/Panel/TrangThai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/connect/ServerSocketConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/connect/ThreadProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/AuthorDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/ColorBr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/ExportNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/ExportNoteDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/FunctionDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/GrAuthor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/ImportNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/ImportNoteDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/ListSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/ListTranmission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/ListTransfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/NoteDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/Origin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/Os.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/PhoneDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/Ram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/Rom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/Supplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/VersionPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/model/WareHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/AuthorDetailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/BrandRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/ColorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/ExportNoteDetailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/ExportNoteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/FunctionDetailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/GrAuthorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/IAuthorDetailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/IBrandRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/IColorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/IExportNoteDetailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/IExportNoteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/IFunctionDetailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/IGrAuthorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/IImportNoteDetailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/IImportNoteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/IOriginRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/IOsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/IPhoneRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/IRamRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/IRomRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/ISupplierRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/IVersionPhoneRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/IWareHouseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/ImportNoteDetailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/ImportNoteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/OriginRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/OsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/PhoneRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/RamRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/RomRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/SupplierRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/VersionPhoneRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/repository/WareHouseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/AuthorDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/ColorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/ExportNoteDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/ExportNoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/FunctionDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/GrAuthorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/IAuthorDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/IBrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/IColorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/IExportNoteDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/IExportNoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/IFunctionDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/IGrAuthorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/IImportNoteDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/IImportNoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/IOriginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/IOsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/IPhoneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/IRamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/IRomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/ISupplierService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/IVersionPhoneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/IWareHouseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/ImportNoteDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/ImportNoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/OSService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/OriginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/PhoneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/RamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/RomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/SupplierService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/VersionPhoneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS/src/service/WareHouseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management_App/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management_App/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management_App/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management_App/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management_App/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management_App/PS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management_App/lolipopsw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/841107_Nhom6_N10/Thông tin nhóm.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/BaoCaoPTTKHTTT/BFD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/BaoCaoPTTKHTTT/Báo cáo PTTKHTTT.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/BaoCaoPTTKHTTT/Quản lí kho hàng điện thoại.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/BaoCaoPTTKHTTT/erdjava.cdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/database/quanlikhohang.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/erd/ERD.mdj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/erd/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/img/add_product.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/img/area.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/img/chitietphieunhap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/img/chitietquyen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/img/doanhthuchitietthang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/img/doanhthunam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/img/doanhthuthang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/img/homepage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/img/khachhang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/img/login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/img/nhacungcap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/img/nhanvien.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/img/phanquyen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/img/phieunhap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/img/product_detail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/img/products.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/img/properties.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/img/taophieunhap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/img/thongkekhachhang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/img/thongkenhacungcap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/img/thongketongquan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/img/thongketonkho.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/PC/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PC/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/sound_scan/Barcode-scanner-beep-sound.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/sound_scan/Barcode-scanner-beep-sound.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/BUS/ChiTietSanPhamBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/BUS/DungLuongRamBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/BUS/DungLuongRomBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/BUS/HeDieuHanhBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/BUS/KhachHangBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/BUS/KhuVucKhoBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/BUS/MauSacBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/BUS/NhaCungCapBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/BUS/NhanVienBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/BUS/NhomQuyenBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/BUS/PhienBanSanPhamBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/BUS/PhieuKiemKeBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/BUS/PhieuNhapBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/BUS/PhieuXuatBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/BUS/SanPhamBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/BUS/TaiKhoanBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/BUS/ThongKeBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/BUS/ThuongHieuBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/BUS/XuatXuBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/ChiTietInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/ChiTietKiemKeDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/ChiTietKiemKeSanPhamDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/ChiTietPhieuNhapDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/ChiTietPhieuXuatDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/ChiTietQuyenDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/ChiTietSanPhamDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/DAOinterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/DanhMucChucNangDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/DungLuongRamDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/DungLuongRomDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/HeDieuHanhDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/KhachHangDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/KhuVucKhoDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/MauSacDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/NhaCungCapDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/NhanVienDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/NhomQuyenDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/PhienBanSanPhamDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/PhieuKiemKeDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/PhieuNhapDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/PhieuXuatDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/SanPhamDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/TaiKhoanDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/ThongKeDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/ThuongHieuDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DAO/XuatXuDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/ChiTietKiemKeDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/ChiTietKiemKeSanPhamDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/ChiTietPhieuDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/ChiTietPhieuNhapDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/ChiTietQuyenDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/ChiTietSanPhamDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/DanhMucChucNangDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/KhachHangDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/KhuVucKhoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/NhaCungCapDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/NhanVienDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/NhomQuyenDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/PhienBanSanPhamDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/PhieuDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/PhieuKiemKeDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/PhieuNhapDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/PhieuXuatDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/SanPhamDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/TaiKhoanDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/ThongKe/ThongKeDoanhThuDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/ThongKe/ThongKeKhachHangDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/ThongKe/ThongKeNhaCungCapDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/ThongKe/ThongKeTheoThangDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/ThongKe/ThongKeTonKhoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/ThongKe/ThongKeTungNgayTrongThangDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/ThuocTinhSanPham/DungLuongRamDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/ThuocTinhSanPham/DungLuongRomDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/ThuocTinhSanPham/HeDieuHanhDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/ThuocTinhSanPham/MauSacDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/ThuocTinhSanPham/ThuongHieuDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/DTO/ThuocTinhSanPham/XuatXuDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Component/HeaderTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/GUI/Component/HeaderTitle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Component/MainFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/GUI/Component/MainFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Component/MenuTaskbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/GUI/Component/MenuTaskbar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Component/itemTaskbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/GUI/Component/itemTaskbar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/ChiTietPhieuDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/ChiTietPhieuKiemKeDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/ChiTietSanPhamDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/GUI/Dialog/ChiTietSanPhamDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/ChonSanPhamNhap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/KhachHangDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/KhuVucKhoDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/ListKhachHang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/ListNhanVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/GUI/Dialog/ListNhanVien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/MyAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/NhaCungCapDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/NhanVienDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/GUI/Dialog/NhanVienDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/PhanQuyenDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/PhieuKiemKeDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/QRCode_Dialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/QuenMatKhau.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/SanPhamDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/GUI/Dialog/SanPhamDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/SelectImei.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/TaiKhoanDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/GUI/Dialog/TaiKhoanDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/ThongKePBSPTonKho.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/ThuocTinhSanPham/DungLuongRamDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/GUI/Dialog/ThuocTinhSanPham/DungLuongRamDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/ThuocTinhSanPham/DungLuongRomDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/GUI/Dialog/ThuocTinhSanPham/DungLuongRomDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/ThuocTinhSanPham/HeDieuHanhDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/GUI/Dialog/ThuocTinhSanPham/HeDieuHanhDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/ThuocTinhSanPham/MauSacDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/GUI/Dialog/ThuocTinhSanPham/MauSacDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/ThuocTinhSanPham/ThuongHieuDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/GUI/Dialog/ThuocTinhSanPham/ThuongHieuDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Dialog/ThuocTinhSanPham/XuatXuDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/GUI/Dialog/ThuocTinhSanPham/XuatXuDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Log_In.java" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/GUI/Log_In.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/GUI/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/ChuyenKho.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/KhachHang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/KhuVucKho.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/NhaCungCap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/NhanVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/GUI/Panel/NhanVien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/PhanQuyen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/PhieuKiemKe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/PhieuNhap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/PhieuXuat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/QuanLyThuocTinhSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/GUI/Panel/QuanLyThuocTinhSP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/SanPham.java" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/GUI/Panel/SanPham.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/TaiKhoan.java" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/GUI/Panel/TaiKhoan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/TaoPhieuKiemKe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/TaoPhieuNhap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/TaoPhieuXuat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/ThongKe/ThongKe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/ThongKe/ThongKeDoanhThu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/ThongKe/ThongKeDoanhThuTrongThang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/ThongKe/ThongKeDoanhThuTuNgayDenNgay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/ThongKe/ThongKeDoanhThuTungNam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/ThongKe/ThongKeDoanhThuTungThang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/ThongKe/ThongKeKhachHang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/ThongKe/ThongKeNhaCungCap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/ThongKe/ThongKeTonKho.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/ThongKe/ThongKeTongQuan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/ThongKeBackUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/GUI/Panel/TrangChu.java" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/GUI/Panel/TrangChu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/config/JDBCUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/helper/writePDF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/icon/productt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/icon/productt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/icon/tinhchinhxac_64px.svg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/icon/tinhchinhxac_64px.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img/login-image.svg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/img/login-image.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img/quanlikhohang (1).sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img/slogan1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/1619198933.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/177Galaxy-S22-Ultra-Burgundy-600x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/img_product/177Galaxy-S22-Ultra-Burgundy-600x600.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/203oppo-reno6-pro-grey-600x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/img_product/203oppo-reno6-pro-grey-600x600.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/286samsung-galaxy-s20-fan-edition-xanh-la-thumbnew-600x600.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/img_product/286samsung-galaxy-s20-fan-edition-xanh-la-thumbnew-600x600.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/337samsung-galaxy-a14-black-thumb-600x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/img_product/337samsung-galaxy-a14-black-thumb-600x600.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/399samsung-galaxy-a54-5g-tim-thumb-600x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/img_product/399samsung-galaxy-a54-5g-tim-thumb-600x600.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/429oppo-n2-flip-den-thumb-200x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/img_product/429oppo-n2-flip-den-thumb-200x200.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/437xiaomi-redmi-12c-grey-thumb-600x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/img_product/437xiaomi-redmi-12c-grey-thumb-600x600.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/555oppo-a95-4g-bac-2-600x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/img_product/555oppo-a95-4g-bac-2-600x600.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/57samsung-galaxy-a53-cam-thumb-1-600x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/img_product/57samsung-galaxy-a53-cam-thumb-1-600x600.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/717xiaomi-redmi-note-12-4g-mono-den-600x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/img_product/717xiaomi-redmi-note-12-4g-mono-den-600x600.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/74319198933.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/747OIP.png" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/img_product/747OIP.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/74vivo-y02s-thumb-1-2-3-600x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/img_product/74vivo-y02s-thumb-1-2-3-600x600.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/826samsung-galaxy-a23-cam-thumb-600x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/img_product/826samsung-galaxy-a23-cam-thumb-600x600.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/877realme-10-thumb-1-600x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/img_product/877realme-10-thumb-1-600x600.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/92vivo-y22s-vang-thumb-600x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/src/img_product/92vivo-y22s-vang-thumb-600x600.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/960vivo-y21-blue-01-600x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/997iphone-13-mini-pink-1-600x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/iphone-14-pro-max.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/iphone-xi-xanhla-200x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/oppo-n2-flip-den-thumb-200x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/oppo-reno8-t-5g-256gb-250123-075345-200x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/oppo_f9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/realme-c35-vang-thumb-200x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/samsung-galaxy-s23-ultra-2-200x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/samsung-galaxy-z-fold4-120822-014401-200x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/src/img_product/xiaomi-redmi-12c-green-thumb-200x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/Điểm kết thúc học phần PTTKHT và JAVA/JAVA.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/Điểm kết thúc học phần PTTKHT và JAVA/Phần tích thiết kế hệ thống.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/841107_Nhom6_N10/Thông tin nhóm.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/BaoCaoPTTKHTTT/BFD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/BaoCaoPTTKHTTT/Báo cáo PTTKHTTT.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/BaoCaoPTTKHTTT/Quản lí kho hàng điện thoại.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/BaoCaoPTTKHTTT/erdjava.cdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/PS/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/database/quanlikhohang.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/erd/ERD.mdj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/erd/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/img/add_product.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/img/area.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/img/chitietphieunhap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/img/chitietquyen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/img/doanhthuchitietthang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/img/doanhthunam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/img/doanhthuthang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/img/homepage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/img/khachhang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/img/login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/img/nhacungcap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/img/nhanvien.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/img/phanquyen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/img/phieunhap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/img/product_detail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/img/products.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/img/properties.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/img/taophieunhap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/img/thongkekhachhang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/img/thongkenhacungcap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/img/thongketongquan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/img/thongketonkho.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/nbproject/private/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/sound_scan/Barcode-scanner-beep-sound.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/sound_scan/Barcode-scanner-beep-sound.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/BUS/ChiTietSanPhamBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/BUS/DungLuongRamBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/BUS/DungLuongRomBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/BUS/HeDieuHanhBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/BUS/KhachHangBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/BUS/KhuVucKhoBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/BUS/MauSacBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/BUS/NhaCungCapBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/BUS/NhanVienBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/BUS/NhomQuyenBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/BUS/PhienBanSanPhamBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/BUS/PhieuKiemKeBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/BUS/PhieuNhapBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/BUS/PhieuXuatBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/BUS/SanPhamBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/BUS/TaiKhoanBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/BUS/ThongKeBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/BUS/ThuongHieuBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/BUS/XuatXuBUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/ChiTietInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/ChiTietKiemKeDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/ChiTietKiemKeSanPhamDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/ChiTietPhieuNhapDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/ChiTietPhieuXuatDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/ChiTietQuyenDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/ChiTietSanPhamDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/DAOinterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/DanhMucChucNangDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/DungLuongRamDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/DungLuongRomDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/HeDieuHanhDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/KhachHangDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/KhuVucKhoDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/MauSacDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/NhaCungCapDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/NhanVienDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/NhomQuyenDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/PhienBanSanPhamDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/PhieuKiemKeDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/PhieuNhapDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/PhieuXuatDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/SanPhamDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/TaiKhoanDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/ThongKeDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/ThuongHieuDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DAO/XuatXuDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/ChiTietKiemKeDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/ChiTietKiemKeSanPhamDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/ChiTietPhieuDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/ChiTietPhieuNhapDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/ChiTietQuyenDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/ChiTietSanPhamDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/DanhMucChucNangDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/KhachHangDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/KhuVucKhoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/NhaCungCapDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/NhanVienDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/NhomQuyenDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/PhienBanSanPhamDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/PhieuDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/PhieuKiemKeDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/PhieuNhapDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/PhieuXuatDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/SanPhamDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/TaiKhoanDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/ThongKe/ThongKeDoanhThuDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/ThongKe/ThongKeKhachHangDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/ThongKe/ThongKeNhaCungCapDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/ThongKe/ThongKeTheoThangDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/ThongKe/ThongKeTonKhoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/ThongKe/ThongKeTungNgayTrongThangDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/ThuocTinhSanPham/DungLuongRamDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/ThuocTinhSanPham/DungLuongRomDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/ThuocTinhSanPham/HeDieuHanhDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/ThuocTinhSanPham/MauSacDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/ThuocTinhSanPham/ThuongHieuDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/DTO/ThuocTinhSanPham/XuatXuDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/ButtonCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/ButtonCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/ButtonToolBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/ButtonToolBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/Chart/BarChart/BlankChart/BlankPlotChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/Chart/BarChart/BlankChart/BlankPlotChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/Chart/BarChart/BlankChart/BlankPlotChatRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/Chart/BarChart/BlankChart/BlankPlotChatRender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/Chart/BarChart/BlankChart/NiceScale.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/Chart/BarChart/BlankChart/NiceScale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/Chart/BarChart/BlankChart/SeriesSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/Chart/BarChart/BlankChart/SeriesSize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/Chart/BarChart/Chart.form" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/Chart/BarChart/Chart.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/Chart/BarChart/Chart.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/Chart/BarChart/Chart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/Chart/BarChart/LabelColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/Chart/BarChart/LabelColor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/Chart/BarChart/LegendItem.form" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/Chart/BarChart/LegendItem.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/Chart/BarChart/LegendItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/Chart/BarChart/LegendItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/Chart/BarChart/ModelChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/Chart/BarChart/ModelChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/Chart/BarChart/ModelLegend.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/Chart/BarChart/ModelLegend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/Chart/CurveChart/BlankChart/BlankPlotChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/Chart/CurveChart/BlankChart/BlankPlotChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/Chart/CurveChart/BlankChart/BlankPlotChatRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/Chart/CurveChart/BlankChart/BlankPlotChatRender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/Chart/CurveChart/BlankChart/NiceScale.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/Chart/CurveChart/BlankChart/NiceScale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/Chart/CurveChart/BlankChart/SeriesSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/Chart/CurveChart/BlankChart/SeriesSize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/Chart/CurveChart/CurveChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/Chart/CurveChart/CurveChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/Chart/CurveChart/LabelColor2.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/Chart/CurveChart/LabelColor2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/Chart/CurveChart/LegendItem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/Chart/CurveChart/LegendItem2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/Chart/CurveChart/ModelChart2.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/Chart/CurveChart/ModelChart2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/Chart/CurveChart/ModelLegend2.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/Chart/CurveChart/ModelLegend2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/CheckListItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/CheckListItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/CheckListRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/CheckListRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/ComboRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/ComboRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/CustomComboCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/CustomComboCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/GraphicsUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/GraphicsUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/GraphicsUtilitiesNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/GraphicsUtilitiesNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/HeaderTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/HeaderTitle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/InputDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/InputDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/InputForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/InputForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/InputImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/InputImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/IntegratedSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/IntegratedSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/MainFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/MainFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/MenuTaskbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/MenuTaskbar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/NavigationBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/NavigationBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/Notification.form" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/Notification.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/NumericDocumentFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/NumericDocumentFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/PanelBorderRadius.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/PanelBorderRadius.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/PanelShadow.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/PanelShadow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/SelectForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/SelectForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/ShadowRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/ShadowRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/ShadowRendererNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/ShadowRendererNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/TableSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/TableSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Component/itemTaskbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Component/itemTaskbar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/ChiTietPhieuDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/ChiTietPhieuKiemKeDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/ChiTietSanPhamDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/ChonSanPhamNhap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/KhachHangDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/KhuVucKhoDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/ListKhachHang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/ListNhanVien.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/MyAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/NhaCungCapDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/NhanVienDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/PhanQuyenDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/PhieuKiemKeDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/QRCode_Dialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/QuenMatKhau.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/SanPhamDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/SelectImei.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/TaiKhoanDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/ThongKePBSPTonKho.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/ThuocTinhSanPham/DungLuongRamDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/ThuocTinhSanPham/DungLuongRomDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/ThuocTinhSanPham/HeDieuHanhDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/ThuocTinhSanPham/MauSacDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/ThuocTinhSanPham/ThuongHieuDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Dialog/ThuocTinhSanPham/XuatXuDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Log_In.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/connect/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/ChuyenKho.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/KhachHang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/KhuVucKho.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/NhaCungCap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/NhanVien.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/PhanQuyen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/PhieuKiemKe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/PhieuNhap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/PhieuXuat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/QuanLyThuocTinhSP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/SanPham.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/TaiKhoan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/TaoPhieuKiemKe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/TaoPhieuNhap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/TaoPhieuXuat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/ThongKe/ThongKe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/ThongKe/ThongKeDoanhThu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/ThongKe/ThongKeDoanhThuTrongThang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/ThongKe/ThongKeDoanhThuTuNgayDenNgay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/ThongKe/ThongKeDoanhThuTungNam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/ThongKe/ThongKeDoanhThuTungThang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/ThongKe/ThongKeKhachHang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/ThongKe/ThongKeNhaCungCap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/ThongKe/ThongKeTonKho.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/ThongKe/ThongKeTongQuan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/ThongKeBackUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/GUI/Panel/TrangChu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/config/JDBCUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/helper/JTableExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/helper/JTableExporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/helper/SendEmailSMTP.java" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/helper/SendEmailSMTP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/helper/writePDF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/icon/productt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/icon/productt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/icon/tinhchinhxac_64px.svg" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/icon/tinhchinhxac_64px.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img/login-image.svg" beforeDir="false" afterPath="$PROJECT_DIR$/PS/src/img/login-image.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img/quanlikhohang (1).sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img/slogan1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/1619198933.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/177Galaxy-S22-Ultra-Burgundy-600x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/203oppo-reno6-pro-grey-600x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/286samsung-galaxy-s20-fan-edition-xanh-la-thumbnew-600x600.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/337samsung-galaxy-a14-black-thumb-600x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/399samsung-galaxy-a54-5g-tim-thumb-600x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/429oppo-n2-flip-den-thumb-200x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/437xiaomi-redmi-12c-grey-thumb-600x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/555oppo-a95-4g-bac-2-600x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/57samsung-galaxy-a53-cam-thumb-1-600x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/717xiaomi-redmi-note-12-4g-mono-den-600x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/74319198933.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/747OIP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/74vivo-y02s-thumb-1-2-3-600x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/826samsung-galaxy-a23-cam-thumb-600x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/877realme-10-thumb-1-600x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/92vivo-y22s-vang-thumb-600x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/960vivo-y21-blue-01-600x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/997iphone-13-mini-pink-1-600x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/iphone-14-pro-max.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/iphone-xi-xanhla-200x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/oppo-n2-flip-den-thumb-200x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/oppo-reno8-t-5g-256gb-250123-075345-200x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/oppo_f9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/realme-c35-vang-thumb-200x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/samsung-galaxy-s23-ultra-2-200x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/samsung-galaxy-z-fold4-120822-014401-200x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/img_product/xiaomi-redmi-12c-green-thumb-200x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/src/style/FlatIntelliJLaf.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/Điểm kết thúc học phần PTTKHT và JAVA/JAVA.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS/Điểm kết thúc học phần PTTKHT và JAVA/Phần tích thiết kế hệ thống.pdf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/PC/P2P">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/PC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="E:\xampp\php\php.exe" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2ZXR2XP1XPOkT4u9x6vYwjVGqEC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "android.gradle.sync.needed": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "E:/project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\PC\src\model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\PC1" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e40071f-a731-40fa-8ebf-97ab39b54295" name="Changes" comment="" />
+      <created>1702566231082</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702566231082</updated>
+      <workItem from="1702566232319" duration="1227000" />
+      <workItem from="1702568357196" duration="3496000" />
+      <workItem from="1702608592059" duration="3945000" />
+      <workItem from="1702613976216" duration="414000" />
+      <workItem from="1702615369624" duration="234000" />
+      <workItem from="1703785328319" duration="208000" />
+      <workItem from="1703785570899" duration="65000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PC/src/DAO/DungLuongRamDAO.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
